@@ -1,0 +1,56 @@
+# 火蛙科技官网配置
+title: 火蛙科技
+description: 专注于智能家居软硬件开发的科技公司
+baseurl: ""
+url: "https://averyhome.github.io"
+
+# 作者信息
+author:
+  name: 火蛙科技
+  email: contact@firefrog.tech
+
+# 社交媒体链接
+social:
+  github: averyhome
+  email: contact@firefrog.tech
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# 集合
+collections:
+  products:
+    output: true
+    permalink: /:collection/:name/
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+
+# 排除文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,41 @@
+# 导航菜单配置
+main:
+  - title: "首页"
+    url: "/"
+  - title: "关于我们"
+    url: "/about"
+  - title: "产品中心"
+    url: "/products"
+  - title: "联系我们"
+    url: "/contact"
+
+footer:
+  products:
+    - title: "智能网关"
+      url: "/products#gateway"
+    - title: "智能传感器"
+      url: "/products#sensors"
+    - title: "移动应用"
+      url: "/products#app"
+    - title: "解决方案"
+      url: "/products#solutions"
+  
+  company:
+    - title: "关于我们"
+      url: "/about"
+    - title: "发展历程"
+      url: "/about#timeline"
+    - title: "核心团队"
+      url: "/about#team"
+    - title: "联系我们"
+      url: "/contact"
+  
+  support:
+    - title: "技术支持"
+      url: "/contact#support"
+    - title: "产品文档"
+      url: "/docs"
+    - title: "常见问题"
+      url: "/faq"
+    - title: "下载中心"
+      url: "/downloads"
